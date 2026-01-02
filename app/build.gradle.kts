@@ -71,4 +71,7 @@ dependencies {
 
     // 图片加载（使用Android内置的方式）
     implementation("androidx.exifinterface:exifinterface:1.3.6")
+
+    // 高德地图
+    implementation("com.amap.api:3dmap:latest.integration")
 }
