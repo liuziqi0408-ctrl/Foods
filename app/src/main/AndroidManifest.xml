@@ -50,6 +50,13 @@
             android:exported="false"
             android:screenOrientation="portrait" />
 
+        <!-- 高德地图服务配置 -->
+        <meta-data
+            android:name="com.amap.api.v2.apikey"
+            android:value="您的高德地图API Key" />
+
+
+
     </application>
 
 </manifest>

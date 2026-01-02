@@ -22,4 +22,10 @@
     <!-- 底部导航颜色 -->
     <color name="bottom_nav_unselected">#808080</color>
     <color name="bottom_nav_selected">#FF6A5ACD</color>
+
+    <!-- 在现有colors.xml中添加 -->
+    <color name="light_gray">#BDBDBD</color>
+    <color name="gray">#757575</color>
+    <color name="black_50">#80000000</color>
+    <color name="gray_light">#BDBDBD</color>
 </resources>
