@@ -58,7 +58,13 @@ class RouletteActivity : AppCompatActivity() {
                 R.id.nav_diary -> {
                     startActivity(Intent(this, DiaryActivity::class.java))
                     true
-                }
+                }R.id.nav_map -> {
+                startActivity(Intent(this, MapActivity::class.java))
+                true
+            }R.id.nav_recommend -> {
+                startActivity(Intent(this, RecommendationActivity::class.java))
+                true
+            }
                 else -> false
             }
         }

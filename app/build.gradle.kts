@@ -2,6 +2,7 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
     id("kotlin-kapt")
+    id("kotlin-parcelize")
 }
 
 android {
@@ -18,6 +19,7 @@ android {
         versionName = "1.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+
     }
 
     buildTypes {
@@ -72,6 +74,14 @@ dependencies {
     // 图片加载（使用Android内置的方式）
     implementation("androidx.exifinterface:exifinterface:1.3.6")
 
-    // 高德地图
-    implementation("com.amap.api:3dmap:latest.integration")
+    implementation("com.amap.api:3dmap:9.8.3")
+
+    // 网络请求
+    implementation("com.squareup.retrofit2:retrofit:2.9.0")
+    implementation("com.squareup.retrofit2:converter-gson:2.9.0")
+    implementation("com.squareup.okhttp3:okhttp:4.12.0")
+    implementation("com.squareup.okhttp3:logging-interceptor:4.12.0")
+
+    // 图片加载
+    implementation("com.github.bumptech.glide:glide:4.16.0")
 }
