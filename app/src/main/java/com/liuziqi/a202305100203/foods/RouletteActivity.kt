@@ -54,7 +54,10 @@ class RouletteActivity : AppCompatActivity() {
                 R.id.nav_roulette -> {
                     // 已经在当前页面
                     true
-                }
+                }R.id.nav_diary -> {
+                startActivity(Intent(this, DiaryActivity::class.java))
+                true
+            }
                 else -> false
             }
         }
