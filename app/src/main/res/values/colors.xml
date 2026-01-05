@@ -30,4 +30,7 @@
     <color name="gray_light">#BDBDBD</color>
 
     <color name="dark_gray">#666666</color>
+
+    <!-- 在现有colors.xml中添加 -->
+    <color name="chip_background">@color/selector_chip_background</color>
 </resources>
