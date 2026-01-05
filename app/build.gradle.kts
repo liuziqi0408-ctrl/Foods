@@ -74,6 +74,7 @@ dependencies {
     // 图片加载（使用Android内置的方式）
     implementation("androidx.exifinterface:exifinterface:1.3.6")
 
+    //高德SDK
     implementation("com.amap.api:3dmap:9.8.3")
 
     // 网络请求
